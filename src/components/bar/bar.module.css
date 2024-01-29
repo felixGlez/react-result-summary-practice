@@ -1,0 +1,25 @@
+.bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 288px;
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
+
+
+.bg-red{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #F55;
+}
+
+.bg-yellow{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #FFB21E;
+}
+
+.bg-green{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #00BB8F;
+}
+
+.bg-blue{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #1125D6;
+}

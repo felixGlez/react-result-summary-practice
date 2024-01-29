@@ -1,0 +1,24 @@
+.container{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0.00) 100%, rgba(37, 33, 201, 0.00) 100%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.title{
+    font-size: 3rem;
+}
+
+.no-spacing{
+    margin: 0 auto;
+}
+
+.subtitle{
+    color: #CAC9FF;
+}
