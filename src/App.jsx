@@ -6,6 +6,7 @@ import Progress from './components/progress/Progress';
 import Subtitle from './components/subtitle/Subtitle';
 import Text from './components/text/Text';
 import Bar from './components/bar/Bar';
+import Button from './components/button/Button';
 
 const App = () => {
 	return (
@@ -24,7 +25,6 @@ const App = () => {
 						text='Reaction'
 						stat={80}
 						color='red'
-						stat-color='black'
 						background='bg-red'
 					/>
 					<Bar
@@ -32,7 +32,6 @@ const App = () => {
 						text='Memory'
 						stat={92}
 						color='orange'
-						stat-color='black'
 						background='bg-yellow'
 					/>
 					<Bar
@@ -40,7 +39,6 @@ const App = () => {
 						text='Verbal'
 						stat={61}
 						color='green'
-						stat-color='black'
 						background='bg-green'
 					/>
 					<Bar
@@ -48,9 +46,10 @@ const App = () => {
 						text='Visual'
 						stat={73}
 						color='blue'
-						stat-color='black'
 						background='bg-blue'
+						margin='mrg-bttm'
 					/>
+					<Button />
 				</RightCard>
 			</MainCard>
 		</>
